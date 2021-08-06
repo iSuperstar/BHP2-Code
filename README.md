@@ -5,7 +5,7 @@ Basically I will be adding my compiled "netcat.py" from the Black Hat Python 2nd
 # Usage
 Usage: linux_nc [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]
 
-BHP Net Tool
+Custom Netcat Replacement
 
 optional arguments:
 
