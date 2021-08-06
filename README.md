@@ -26,15 +26,15 @@ optional arguments:
 
 Example: 2 
 
-            netcat.py -t 192.168.1.108 -p 5555 -l -c #command shell 
+            ./linux_nc -t 192.168.1.108 -p 5555 -l -c #command shell 
             
-            netcat.py -t 192.168.1.108 -p 5555 -l -u=mytest.txt # upload to file 
+            ./linux_nc -t 192.168.1.108 -p 5555 -l -u=mytest.txt # upload to file 
             
-            netcat.py -t 192.168.1.108 -p 5555 -l -e="cat /etc/passwd" # execute command 
+            ./linux_nc -t 192.168.1.108 -p 5555 -l -e="cat /etc/passwd" # execute command 
             
-            echo 'ABC' | ./netcat.py -t 192.168.1.108 -p 135 # echo text to server port 135 
+            echo 'ABC' | ./linux_nc -t 192.168.1.108 -p 135 # echo text to server port 135 
             
-            netcat.py -t 192.168.1.108 -p 5555 # connect to server 
+            ./linux_nc -t 192.168.1.108 -p 5555 # connect to server 
             
 
 # Disclaimer
